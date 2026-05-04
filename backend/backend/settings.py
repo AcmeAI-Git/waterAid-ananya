@@ -22,7 +22,7 @@ SECRET_KEY = env('SECRET_KEY', default='django-insecure-default-key-change-this-
 DEBUG = env('DEBUG')
 
 # Set to your Render URL in the dashboard (e.g., ://onrender.com)
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ['*'] 
 
 # 3. Application definition
 INSTALLED_APPS = [
